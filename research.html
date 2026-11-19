@@ -149,17 +149,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Generative AI now writes messages matched to a recipient at minimal human effort, and it increasingly helps decide which messages people read. My projects take up both sides of this change. The first asks what a message still signals about its sender when AI helps write it. The second asks how AI changes gatekeeping, the process that reduces countless pieces of information to the few messages that reach the public.</p>
+<p>Generative AI now writes messages matched to a recipient at minimal human effort, and it increasingly helps decide which messages people read. My projects take up both sides of this change: what a message still signals about its sender when AI helps write it, and how AI changes gatekeeping, the process that reduces countless pieces of information to the few messages that reach the public.</p>
 <section id="what-ai-assisted-messages-signal" class="level2">
 <h2 class="anchored" data-anchor-id="what-ai-assisted-messages-signal">What AI-assisted messages signal</h2>
 <section id="opentable" class="level3">
 <h3 class="anchored" data-anchor-id="opentable">Accommodation made cheap: AI and restaurants’ replies to online reviews</h3>
-<p><span class="project-meta">With Chao Yu (Northwestern University) and Wang Liao (University of Washington)</span></p>
 <div class="study">
-<p><strong>Question.</strong> How did restaurants’ public replies to online reviews change after ChatGPT, and does tailoring a reply to the review still set it apart? The study draws on communication accommodation theory and signaling theory.</p>
-<p><strong>Data and methods.</strong> 8.9 million reviews and 487,906 replies on OpenTable across six U.S. metro areas. Interrupted time series with restaurant and period fixed effects; tailoring is measured as how closely a reply resembles the review it answers.</p>
-<p><strong>Findings.</strong> Compared with before 2023, replies took up their reviews far more closely, most of all in quarters when AI likely wrote at least half of a restaurant’s replies. More tailored replies went with more later reviews before 2023 but no longer did from 2023. The data cannot yet attribute that change to AI authorship.</p>
-<p><strong>Status.</strong> Extended abstract submitted to ICA 2027.</p>
+<dl>
+<dt>Question</dt>
+<dd>
+How did restaurants’ public replies to online reviews change after ChatGPT, and does tailoring a reply to the review still set it apart?
+</dd>
+<dt>Theory</dt>
+<dd>
+Communication accommodation theory; signaling theory
+</dd>
+<dt>Data</dt>
+<dd>
+8.9 million reviews and 487,906 replies on OpenTable across six U.S. metro areas
+</dd>
+<dt>Methods</dt>
+<dd>
+Interrupted time series with restaurant and period fixed effects; tailoring measured as how closely a reply resembles the review it answers
+</dd>
+<dt>Findings</dt>
+<dd>
+Compared with before 2023, replies took up their reviews far more closely, most of all in quarters when AI likely wrote at least half of a restaurant’s replies. More tailored replies went with more later reviews before 2023 but no longer did from 2023. The data cannot yet attribute that change to AI authorship.
+</dd>
+<dt>Status</dt>
+<dd>
+Extended abstract submitted to ICA 2027
+</dd>
+</dl>
 </div>
 </section>
 </section>
@@ -167,50 +188,139 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="gatekeeping-on-platforms-and-by-ai">Gatekeeping on platforms and by AI</h2>
 <section id="community-notes" class="level3">
 <h3 class="anchored" data-anchor-id="community-notes">Diminishing returns to AI note writers: Human raters limit what Community Notes publish</h3>
-<p><span class="project-meta">First author, with Chao Yu (Northwestern University)</span></p>
 <div class="study">
-<p><strong>Question.</strong> On X’s Community Notes, a note is published only when raters with differing perspectives rate it helpful. AI programs now write notes too, but only humans rate them. Do AI note writers increase what the platform publishes? The study draws on gatekeeping theory.</p>
-<p><strong>Data and methods.</strong> 791,143 notes flagging posts as misleading, from the first AI note in September 2025 to September 2026. Time-series and fixed-effects models.</p>
-<p><strong>Findings.</strong> Ratings tracked human-written notes, not AI-written ones. When AI output doubled, each AI note received 10% fewer ratings and was 12% less likely to be published. AI writers scaled up note production far more than the human ratings that decide which notes are published.</p>
-<p><strong>Status.</strong> First-author extended abstract submitted to ICA 2027.</p>
+<dl>
+<dt>Question</dt>
+<dd>
+Do AI note writers increase what X’s Community Notes publishes? AI programs can write notes, but only humans rate them, and a note is published only when raters with differing perspectives rate it helpful.
+</dd>
+<dt>Theory</dt>
+<dd>
+Gatekeeping theory
+</dd>
+<dt>Data</dt>
+<dd>
+791,143 notes flagging posts as misleading, September 2025 to September 2026
+</dd>
+<dt>Methods</dt>
+<dd>
+Time-series and fixed-effects models
+</dd>
+<dt>Findings</dt>
+<dd>
+Ratings tracked human-written notes, not AI-written ones. When AI output doubled, each AI note received 10% fewer ratings and was 12% less likely to be published. AI writers scaled up note production far more than the human ratings that decide which notes are published.
+</dd>
+<dt>Status</dt>
+<dd>
+First-author extended abstract submitted to ICA 2027
+</dd>
+</dl>
 </div>
 </section>
 <section id="brand-visibility" class="level3">
 <h3 class="anchored" data-anchor-id="brand-visibility">The Silent Gatekeeper: Brand visibility in LLM recommendations</h3>
-<p><span class="project-meta">With Edward C. Malthouse, Jing Yang, Sanchary Pal, and Kun-Yu Lee</span></p>
 <div class="study">
-<p><strong>Question.</strong> How often and how prominently do LLMs recommend brands to consumers seeking product advice? The study treats LLMs as gatekeepers between consumers and brands.</p>
-<p><strong>Data and methods.</strong> A measurement framework that estimates recommendation prevalence (Brand Recommendation Probability) and prominence (an adapted Mean Reciprocal Rank) from repeated queries. Multiple LLMs, five product categories, and needs-based prompts; models were queried through their APIs in new sessions with no conversation history. Regularized regression on marketplace-visibility measures.</p>
-<p><strong>Findings.</strong> Many major brands were rarely or never recommended. Recommendation prominence was associated with marketplace visibility, particularly search interest and online brand conversation.</p>
-<p><strong>Status.</strong> Revise and resubmit, <em>Journal of Advertising Research</em>. A related paper is submitted to ECIR 2027 (<a href="https://arxiv.org/abs/2609.16304">arXiv:2609.16304</a>).</p>
+<dl>
+<dt>Question</dt>
+<dd>
+How often and how prominently do large language models (LLMs) recommend brands to consumers seeking product advice? The study treats LLMs as gatekeepers between consumers and brands.
+</dd>
+<dt>Data</dt>
+<dd>
+Repeated queries to multiple LLMs through their APIs, each in a new session with no conversation history; five product categories; needs-based prompts
+</dd>
+<dt>Methods</dt>
+<dd>
+Brand Recommendation Probability for how often a brand is recommended, and an adapted Mean Reciprocal Rank for how prominently; regularized regression on marketplace-visibility measures
+</dd>
+<dt>Findings</dt>
+<dd>
+Many major brands were rarely or never recommended. Recommendation prominence was associated with marketplace visibility, particularly search interest and online brand conversation.
+</dd>
+<dt>Status</dt>
+<dd>
+Revise and resubmit, <em>Journal of Advertising Research</em>. A related paper is submitted to ECIR 2027 (<a href="https://arxiv.org/abs/2609.16304">arXiv:2609.16304</a>).
+</dd>
+</dl>
 </div>
 </section>
 <section id="machine-brand-image" class="level3">
 <h3 class="anchored" data-anchor-id="machine-brand-image">The machine brand image: Evaluating LLM recommendations across prompts and models</h3>
-<p><span class="project-meta">With Jing Yang, Kun-Yu Lee, Sanchary Pal, and Edward C. Malthouse</span></p>
 <div class="study">
-<p><strong>Question.</strong> When LLMs recommend brands, they also explain why. The study treats these justifications as brand associations.</p>
-<p><strong>Data and methods.</strong> 17,821 justifications from six LLMs across five product categories, coded into eight association types and linked to marketplace data.</p>
-<p><strong>Findings.</strong> The associations mirrored brands’ positioning and were largely shared across LLMs. A consumer’s stated need shifted them from reputation toward situational fit.</p>
-<p><strong>Status.</strong> Competitive paper accepted at AAA 2027; submitted to <em>Journal of Advertising</em>.</p>
+<dl>
+<dt>Question</dt>
+<dd>
+What do LLMs say about the brands they recommend? The study treats these justifications as brand associations.
+</dd>
+<dt>Theory</dt>
+<dd>
+Brand-knowledge framework (Keller)
+</dd>
+<dt>Data</dt>
+<dd>
+17,821 justifications from six LLMs across five product categories
+</dd>
+<dt>Methods</dt>
+<dd>
+Coding into eight association types, linked to marketplace data
+</dd>
+<dt>Findings</dt>
+<dd>
+The associations mirrored brands’ positioning and were largely shared across LLMs. A consumer’s stated need shifted them from reputation toward situational fit.
+</dd>
+<dt>Status</dt>
+<dd>
+Competitive paper accepted at AAA 2027; submitted to <em>Journal of Advertising</em>
+</dd>
+</dl>
 </div>
 </section>
 <section id="consumer-knowledge" class="level3">
-<h3 class="anchored" data-anchor-id="consumer-knowledge">In progress: How an LLM’s knowledge of the consumer shapes brand recommendations</h3>
-<p><span class="project-meta">With Edward C. Malthouse, Jing Yang, Sanchary Pal, and Kun-Yu Lee</span></p>
+<h3 class="anchored" data-anchor-id="consumer-knowledge">How an LLM’s knowledge of the consumer shapes brand recommendations</h3>
 <div class="study">
-<p><strong>Design.</strong> Compares a stateless model, the user’s own LLM personalization, and a synthetic persona, with participants querying their own AI assistants. I designed the participant survey and ran the factor analysis.</p>
-<p><strong>Status.</strong> Paper in preparation for ICORIA 2027.</p>
+<dl>
+<dt>Question</dt>
+<dd>
+How does an LLM’s knowledge of the consumer shape its brand recommendations?
+</dd>
+<dt>Design</dt>
+<dd>
+Compares a stateless model, the user’s own LLM personalization, and a synthetic persona, with participants querying their own AI assistants
+</dd>
+<dt>My role</dt>
+<dd>
+Designed the participant survey and ran the factor analysis
+</dd>
+<dt>Status</dt>
+<dd>
+Paper in preparation for ICORIA 2027
+</dd>
+</dl>
 </div>
 </section>
 </section>
-<section id="next-steps" class="level2">
-<h2 class="anchored" data-anchor-id="next-steps">Next steps</h2>
-<p>Observational data can narrow the explanations for these patterns but not choose among them. Signaling theory predicts that a message loses value once AI makes it cheap to produce; communication accommodation theory treats adapting to one another as a persistent tendency of human communication. I plan online experiments that vary whether AI involvement is disclosed, who sends the message, and whether it is private or masspersonal (written for one person yet readable by anyone), to test when each prediction holds.</p>
-</section>
-<section id="methods" class="level2">
-<h2 class="anchored" data-anchor-id="methods">Methods</h2>
-<p>Panel and time-series models with fixed effects · interrupted time series · regularized regression · survey design and factor analysis · large-scale data collection and text analysis · Python, R, SQL</p>
+<section id="methods-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="methods-and-tools">Methods and tools</h2>
+<div class="study">
+<dl>
+<dt>Modeling</dt>
+<dd>
+Panel and time-series models with fixed effects; interrupted time series; regularized regression
+</dd>
+<dt>Surveys</dt>
+<dd>
+Survey design; factor analysis
+</dd>
+<dt>Data</dt>
+<dd>
+Large-scale data collection; text analysis
+</dd>
+<dt>Programming</dt>
+<dd>
+Python, R, SQL
+</dd>
+</dl>
+</div>
 
 
 </section>
