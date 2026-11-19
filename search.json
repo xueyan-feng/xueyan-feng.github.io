@@ -39,7 +39,7 @@
     "href": "research.html#methods-and-tools",
     "title": "Research",
     "section": "Methods and tools",
-    "text": "Methods and tools\n\n\nModeling\n\nPanel and time-series models with fixed effects; interrupted time series; regularized regression\n\nSurveys\n\nSurvey design; factor analysis\n\nText and data\n\nLarge-scale data collection; text analysis\n\nProgramming\n\nPython, R, SQL"
+    "text": "Methods and tools\n\n\nProgramming\n\nPython, R, SQL\n\nModeling\n\nEconometrics, statistical modeling, machine learning\n\nSurveys\n\nSurvey design and analysis\n\nText and data\n\nLarge-scale data collection; text analysis"
   },
   {
     "objectID": "cv.html",
